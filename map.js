@@ -5,7 +5,7 @@
 
      map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
      var flooded = new google.maps.KmlLayer({
-         url: 'https://raw.githubusercontent.com/Danny-hydro/Danny-hydro/master/bridges.kml',
+         url: 'https://raw.githubusercontent.com/davjr96/SYS2001-Map/master/bridges.kml',
          map: map
      });
  }
